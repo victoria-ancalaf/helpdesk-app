@@ -1,6 +1,10 @@
 import React from "react";
 import CreateForm from "./createForm";
 
+export const metadata = {
+  title: "Helpdesk | New Ticket",
+};
+
 export default function CreateTicket() {
   return (
     <main>
